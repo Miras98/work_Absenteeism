@@ -58,7 +58,9 @@ The goal is to **predict whether an employee has excessive absence or normal abs
   - **Accuracy**  
   - **Precision & Recall**  
   - **F1-Score**  
-  - **Confusion Matrix**  
+  - **Confusion Matrix**
+ 
+![absent_cm](https://github.com/user-attachments/assets/d4e5863e-02b6-4dc9-aaaa-6be7e665c09c)
 
 ---
 
@@ -68,14 +70,18 @@ The goal is to **predict whether an employee has excessive absence or normal abs
 2. **Model Performance**:  
    - The model achieved **82.09% accuracy** in predicting excessive absenteeism.  
 3. **Insights**:  
-   - Employees with **higher transportation expenses** and **longer commutes** showed increased absenteeism.  
-   - **Social smokers** had a higher likelihood of excessive absence.  
+   - Employees with **higher number of childrens** and **higher transportation expenses** showed excessive absenteeism.
+   - Employees with high BMI showed increase in absenteeism
+
+  ![absent_res](https://github.com/user-attachments/assets/b447141e-577f-4627-98c2-0387f15adcd3)
+
+  ![absent_transp](https://github.com/user-attachments/assets/264cc60f-e16d-4eb2-b857-1cae4cfcc34e)
+
 
 ---
 
 ## 🚀 Recommendations  
-1. **Work-from-Home Policy**: Implement flexible or remote work options for employees with **long commutes** to reduce absenteeism.  
+1. **Work-from-Home Policy**: Implement flexible or remote work options for employees to reduce absenteeism.  
 2. **Health & Wellness Programs**: Introduce **fitness and mental health initiatives** to reduce absenteeism due to **BMI-related issues**.  
-3. **Employee Assistance Programs**: Provide **support for social smokers** to reduce their absenteeism rates.  
+3. **Employee Assistance Programs**: Provide **support for Mothers** to reduce their absenteeism rates.  
 
----
