@@ -1,13 +1,13 @@
-# 📊 Work Absenteeism Analysis using Logistic Regression  
+# Work Absenteeism Analysis using Logistic Regression  
 
-## 📌 Project Overview  
+## Project Overview  
 Employee absenteeism is a key factor affecting workplace productivity. 
 This project aims to analyze absenteeism patterns and predict **excessive absence** using **Logistic Regression**. 
 The **absence time (in hours)** was transformed into a **binary target variable** based on the **median absence hours** as a threshold.
 
 ---
 
-## 📂 Dataset Information  
+## Dataset Information  
 The dataset contains records of employee absenteeism, including personal, social, and work-related factors. 
 Key features include:  
 
@@ -26,7 +26,7 @@ Key features include:
 
 ---
 
-## 🎯 Problem Statement  
+## Problem Statement  
 The goal is to **predict whether an employee has excessive absence or normal absence** based on various personal and job-related factors.  
 
 - **Target Variable**: `Excessive_Absence`  
@@ -36,7 +36,7 @@ The goal is to **predict whether an employee has excessive absence or normal abs
 
 ---
 
-## 📊 Data Preprocessing & Feature Engineering  
+## Data Preprocessing & Feature Engineering  
 - **Handling Missing Values**:  
   - Imputed missing values using median or mode based on the feature type.  
 - **Encoding Categorical Variables**:  
@@ -48,7 +48,7 @@ The goal is to **predict whether an employee has excessive absence or normal abs
 
 ---
 
-## 🧠 Model Training: Logistic Regression  
+## Model Training: Logistic Regression  
 - **Train-Test Split**:  
   - 80% Training Data  
   - 20% Testing Data  
@@ -64,7 +64,7 @@ The goal is to **predict whether an employee has excessive absence or normal abs
 
 ---
 
-## 📈 Results & Key Findings  
+## Results & Key Findings  
 1. **Feature Importance**:  
    - Factors such as **transportation expenses, workload, and BMI** influenced absenteeism.  
 2. **Model Performance**:  
@@ -80,7 +80,7 @@ The goal is to **predict whether an employee has excessive absence or normal abs
 
 ---
 
-## 🚀 Recommendations  
+## Recommendations  
 1. **Work-from-Home Policy**: Implement flexible or remote work options for employees to reduce absenteeism.  
 2. **Health & Wellness Programs**: Introduce **fitness and mental health initiatives** to reduce absenteeism due to **BMI-related issues**.  
 3. **Employee Assistance Programs**: Provide **support for Mothers** to reduce their absenteeism rates.  
